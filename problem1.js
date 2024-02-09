@@ -100,3 +100,4 @@ function password(obj) {
         }
         return savings;
     }
+console.log()

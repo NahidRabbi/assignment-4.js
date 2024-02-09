@@ -13,5 +13,6 @@ function password(obj) {
      const pass = upperSiteName + "#" + name+ "@" + birthYear;
      return pass;
     }
+    
 
     console.log(password({ name: 'rahat' , birthYear: 2002, siteName: 'Facebook' }));
