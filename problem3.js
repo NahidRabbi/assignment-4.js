@@ -6,11 +6,12 @@ function deleteInvalids(array){
 
     const newArray = [];
     for (let i = 0; i < array.length; i++) {
-        if (typeof item === 'number' && !isNaN(item)) {
-            newArray.push(item);
+        if (typeof array [i] === 'number' && !isNaN(array [i])) {
+            newArray.push(array[i]);
         }
     }
 
     return newArray;
 }
-console.log(deleteInvalids([1 , null, undefined, 18, -19, NaN, "12", [1, 2], { ob: "lala" }]));
+console.log(deleteInvalids({num: [ 1 , 2 , 3 ]}));
+
